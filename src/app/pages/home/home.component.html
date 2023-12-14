@@ -1,0 +1,27 @@
+<header class="header">
+    <a class="header--homelink" routerLink="/">
+      <img class="header--homelogo" src="assets/images/logo.png" alt="Buzzfeed">
+    </a>
+</header>
+<main class="main">
+  <ul class="quizzes">
+    @for (quiz of quizzes(); track quiz.id) {
+      <li class="quizzes--card">
+        <a [routerLink]="['/quizzes/', quiz.slug]">
+          <div class="quizzes--img-container">
+            <img class="quizzes--img" [src]="quiz.imageUrl" [alt]="quiz.title">
+          </div>
+          <div class="quizzes--infos">
+            <h2 class="quizzes--title">{{quiz.title}}</h2>
+            <p class="quizzes--description">{{quiz.description}}</p>
+            <div class="quizzes--author">
+              <img class="quizzes--author-img" [src]="quiz.author.imageUrl" [alt]="'Foto de perfil do usuário' + quiz.author.name">
+              <h3 class="quizzes--author-name">{{quiz.author.name}}</h3>
+              <span class="quizzes--author-date">{{quiz.publishedAgo}}</span>
+            </div>
+          </div>
+        </a>
+      </li>
+    }
+  </ul>
+</main>

@@ -1,0 +1,8 @@
+{
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "style": "css",
+      "externalTemplate": true
+    }
+  }
+}

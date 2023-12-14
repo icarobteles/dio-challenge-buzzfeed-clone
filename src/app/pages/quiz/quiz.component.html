@@ -1,0 +1,9 @@
+@if (resultMessage(); as resultMessage) {
+  <app-result [message]="resultMessage" (retakeQuiz)="handleRetakeQuiz()" />
+} @else {
+  @if(currentQuestion(); as currentQuestion) {
+    <app-question (answerWasSelected)="handleAnswerSelected($event)" [question]="currentQuestion" />
+  } @else {
+    <p>Carregando...</p>
+  }
+}

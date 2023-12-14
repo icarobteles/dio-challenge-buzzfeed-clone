@@ -1,0 +1,144 @@
+{
+  "quizzes": [
+    {
+      "id": 1001,
+      "slug": "voce-seria-heroi-ou-vilao",
+      "title": "Você seria um heroi ou vilão ?",
+      "imageUrl": "https://th.bing.com/th/id/OIG.czgEGzN6C7oD22TBM7U.?pid=ImgGn",
+      "description": "Goku ou Freeza? Harry Potter ou Voldemort? Frodo ou Sauron? Responsa esse quiz e saiba se você seria um honrado heroi ou um maquiavélico vilão!",
+      "author": {
+        "id": 101,
+        "imageUrl": "https://th.bing.com/th/id/OIG.R7u_Nbh7Gu7NjyHaO_8e?pid=ImgGn",
+        "name": "Dobby, o Elfo Livre"
+      },
+      "createdAt": "2023-12-11T05:50:00-03:00",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual super poder você escolheria ?",
+          "options": [
+            { "id": 1, "name": "Raios-Lasers", "alias": "A" },
+            { "id": 2, "name": "Voar", "alias": "B" },
+            { "id": 3, "name": "Explodir coisas", "alias": "A" },
+            { "id": 4, "name": "Curar feridas", "alias": "B" },
+            { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Quem você salvaria primeiro ?",
+          "options": [
+            { "id": 1, "name": "Crianças", "alias": "A" },
+            { "id": 2, "name": "Idosos", "alias": "A" },
+            { "id": 3, "name": "Não saberia escolher", "alias": "B" }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+          "options": [
+            { "id": 1, "name": "Não destruir prédios", "alias": "B" },
+            { "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
+            { "id": 3, "name": "Não sujar meu traje", "alias": "A" },
+            { "id": 4, "name": "Não deixar ninguém se ferir", "alias": "B" }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Qual o seu maior foco ?",
+          "options": [
+            { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
+            { "id": 2, "name": "Salvar a cidade", "alias": "B" }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual o seu apelido de super ser ?",
+          "options": [
+            { "id": 1, "name": "O Terrivel", "alias": "A" },
+            { "id": 2, "name": "Amigo da vizinhança", "alias": "B" }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Você muito provavelmente seria um super vilão!",
+        "B": "Você muito provavelmente seria um super Herói!"
+      }
+    },
+    {
+      "id": 1002,
+      "slug": "qual-estacao-voce-seria",
+      "title": "Qual estação você seria? Verão, Primavera, Inverno ou Outono?",
+      "imageUrl": "https://th.bing.com/th/id/OIG.NrZxjMukWVquorOpg3zA?pid=ImgGn",
+      "description": "Descubra qual estação do ano melhor representa a sua personalidade! Responda este quiz e saiba se você é mais como o calor do verão, a renovação da primavera, a calma do inverno ou a nostalgia do outono.",
+      "author": {
+        "id": 102,
+        "imageUrl": "https://th.bing.com/th/id/OIG.8zP2yGQW9.LVLTmYWjTK?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "name": "ChatGPT, o Assistente Inteligente"
+      },
+      "createdAt": "2023-12-14T10:00:00-03:00",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Qual atividade ao ar livre você prefere?",
+          "options": [
+            { "id": 1, "name": "Praia", "alias": "A" },
+            { "id": 2, "name": "Piquenique no parque", "alias": "B" },
+            { "id": 3, "name": "Esqui na montanha", "alias": "C" },
+            {
+              "id": 4,
+              "name": "Caminhada em uma floresta colorida",
+              "alias": "D"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Qual sua bebida preferida?",
+          "options": [
+            { "id": 1, "name": "Cerveja gelada", "alias": "A" },
+            { "id": 2, "name": "Chá quente", "alias": "B" },
+            { "id": 3, "name": "Chocolate quente", "alias": "C" },
+            { "id": 4, "name": "Café gelado", "alias": "D" }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Escolha uma cor:",
+          "options": [
+            { "id": 1, "name": "Amarelo vibrante", "alias": "A" },
+            { "id": 2, "name": "Verde suave", "alias": "B" },
+            { "id": 3, "name": "Branco puro", "alias": "C" },
+            { "id": 4, "name": "Vermelho quente", "alias": "D" }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "O que mais te atrai em uma estação?",
+          "options": [
+            { "id": 1, "name": "Sol intenso", "alias": "A" },
+            { "id": 2, "name": "Flores em bloom", "alias": "B" },
+            { "id": 3, "name": "Neve cobrindo tudo", "alias": "C" },
+            { "id": 4, "name": "Folhas caindo", "alias": "D" }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Qual é o seu estilo de moda preferido?",
+          "options": [
+            { "id": 1, "name": "Roupas de praia", "alias": "A" },
+            { "id": 2, "name": "Roupas florais", "alias": "B" },
+            { "id": 3, "name": "Casacos e cachecóis", "alias": "C" },
+            { "id": 4, "name": "Casual com tons terrosos", "alias": "D" }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Você seria o Verão, cheio de energia e calor!",
+        "B": "Você seria a Primavera, renovador e cheio de vida!",
+        "C": "Você seria o Inverno, com calma e tranquilidade!",
+        "D": "Você seria o Outono, nostálgico e melancólico!"
+      }
+    }
+  ]
+}

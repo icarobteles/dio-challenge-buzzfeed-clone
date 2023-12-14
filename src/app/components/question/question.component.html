@@ -1,0 +1,10 @@
+<div class="question">
+  <h2 class="question--title">{{question.question}}</h2>
+  <ul class="question--answers">
+    @for (answer of question.options; track answer.id) {
+      <li (click)="handleAnswerClick(answer.alias)" class="question--answer">
+        {{answer.name}}
+      </li>
+    }
+  </ul>
+</div>
